@@ -44,3 +44,7 @@ alias middle='sh /usr/local/bin/middle.sh'
 ```
 
 Restart your terminal, and you're good to go!
+
+## Usage
+
+<img src='https://user-images.githubusercontent.com/43666833/174853214-26a8995d-3993-4002-8f40-e8c0afaa6ac0.gif' alt='usage'>
