@@ -28,3 +28,19 @@ sh middle.sh sample.txt 4 8
 ```
 
 <img src='https://user-images.githubusercontent.com/43666833/174843291-1fac5be9-2b85-4e09-a492-dca8c0f87ad6.png' alt='output'>
+
+## Installation
+
+Download the script
+
+```
+curl -s https://raw.githubusercontent.com/sanesource/middle/main/middle.sh > /usr/local/bin/middle.sh
+```
+
+Create alias for that, insert following line in your shell configuration file i.e. `~/.bash_profile`, `~/.zshrc`
+
+```
+alias middle='sh /usr/local/bin/middle.sh'
+```
+
+Restart your terminal, and you're good to go!
