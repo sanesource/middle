@@ -31,16 +31,10 @@ sh middle.sh sample.txt 4 8
 
 ## Installation
 
-Download the script
+Download and install the script
 
 ```
-curl -s https://raw.githubusercontent.com/sanesource/middle/main/middle.sh > /usr/local/bin/middle.sh
-```
-
-Create alias for that, insert following line in your shell configuration file i.e. `~/.bash_profile`, `~/.zshrc`
-
-```
-alias middle='sh /usr/local/bin/middle.sh'
+curl -s https://raw.githubusercontent.com/sanesource/middle/main/middle > /usr/local/bin/middle && chmod 777 /usr/local/bin/middle 
 ```
 
 Restart your terminal, and you're good to go!
